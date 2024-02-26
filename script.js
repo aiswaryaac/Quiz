@@ -1,29 +1,64 @@
 const questions=[
     {
-        question : "Which animal is known as the 'Ship of the Desert?",
+        question : "What is the capital of France?",
     
         answers:[
-        {text : "Camel", correct: true},
-        {text : "horse", correct: false},
-        {text : "giraffe", correct: false},
-        {text : "zebra", correct: false},
+        {text : "Paris", correct: true},
+        {text : "London", correct: false},
+        {text : "Rome", correct: false},
+        {text : "Berlin", correct: false},
         
         ]
     },
 
     {
-        question : "Name the National bird of India?",
+        question : "Who wrote the play Romeo and Juliet?",
     
         answers:[
-        {text : "peacock", correct: true},
-        {text : "parrot", correct: false},
-        {text : "penguie", correct: false},
-        {text : "sparrow", correct: false},
+        {text : " William Shakespeare", correct: true},
+        {text : "Charles Dickens", correct: false},
+        {text : "Jane Austen", correct: false},
+        {text : "Mark Twain", correct: false},
         
         ]
-    }
-];
+    },
 
+    {
+        question : "What is the chemical symbol for water?",
+    
+        answers:[
+        {text : " Wa", correct: false},
+        {text : "H2O", correct: true},
+        {text : "O2", correct: false},
+        {text : "H2", correct: false},
+        
+        ]
+    },
+
+    {
+        question : "In which year did the Titanic sink?",
+    
+        answers:[
+        {text : "1908", correct: false},
+        {text : " 1912", correct: true},
+        {text : "1920", correct: false},
+        {text : "1916", correct: false},
+        
+        ]
+    },
+
+    {
+        question : "What is the largest mammal in the world?",
+    
+        answers:[
+        {text : " Elephant", correct: false},
+        {text : "Giraffe", correct: false},
+        {text : " Blue whale", correct: true},
+        {text : "Hippopotamus", correct: false},
+        
+        ]
+    },
+];
 const questionElement=document.getElementById("question")
 const answerButton=document.getElementById("answer-button")
 const nextButton=document.getElementById("nextbtn")
